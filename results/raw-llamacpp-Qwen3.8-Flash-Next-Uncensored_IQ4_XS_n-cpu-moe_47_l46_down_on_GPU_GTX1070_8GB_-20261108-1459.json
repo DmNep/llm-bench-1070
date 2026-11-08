@@ -1,0 +1,122 @@
+﻿[
+    {
+        "label":  "Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, GTX1070 8GB)",
+        "target_tokens":  1024,
+        "rep":  1,
+        "prompt_tokens":  1092,
+        "prefill_tps":  61.6,
+        "gen_tokens":  128,
+        "gen_tps":  5.8,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, GTX1070 8GB)",
+        "target_tokens":  1024,
+        "rep":  2,
+        "prompt_tokens":  1091,
+        "prefill_tps":  83.7,
+        "gen_tokens":  128,
+        "gen_tps":  6.2,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, GTX1070 8GB)",
+        "target_tokens":  1024,
+        "rep":  3,
+        "prompt_tokens":  1091,
+        "prefill_tps":  82,
+        "gen_tokens":  128,
+        "gen_tps":  6.2,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, GTX1070 8GB)",
+        "target_tokens":  4096,
+        "rep":  1,
+        "prompt_tokens":  4247,
+        "prefill_tps":  105.8,
+        "gen_tokens":  128,
+        "gen_tps":  5.9,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, GTX1070 8GB)",
+        "target_tokens":  4096,
+        "rep":  2,
+        "prompt_tokens":  4247,
+        "prefill_tps":  112.8,
+        "gen_tokens":  128,
+        "gen_tps":  6.1,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, GTX1070 8GB)",
+        "target_tokens":  4096,
+        "rep":  3,
+        "prompt_tokens":  4246,
+        "prefill_tps":  107.9,
+        "gen_tokens":  128,
+        "gen_tps":  6.1,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, GTX1070 8GB)",
+        "target_tokens":  16384,
+        "rep":  1,
+        "prompt_tokens":  16866,
+        "prefill_tps":  105.6,
+        "gen_tokens":  128,
+        "gen_tps":  5.5,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, GTX1070 8GB)",
+        "target_tokens":  16384,
+        "rep":  2,
+        "prompt_tokens":  16866,
+        "prefill_tps":  108.2,
+        "gen_tokens":  128,
+        "gen_tps":  5.9,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, GTX1070 8GB)",
+        "target_tokens":  16384,
+        "rep":  3,
+        "prompt_tokens":  16866,
+        "prefill_tps":  107.4,
+        "gen_tokens":  128,
+        "gen_tps":  5.1,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, GTX1070 8GB)",
+        "target_tokens":  24576,
+        "rep":  1,
+        "prompt_tokens":  25279,
+        "prefill_tps":  98.9,
+        "gen_tokens":  128,
+        "gen_tps":  5.5,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, GTX1070 8GB)",
+        "target_tokens":  24576,
+        "rep":  2,
+        "prompt_tokens":  25281,
+        "prefill_tps":  99.1,
+        "gen_tokens":  128,
+        "gen_tps":  5,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, GTX1070 8GB)",
+        "target_tokens":  24576,
+        "rep":  3,
+        "prompt_tokens":  25280,
+        "prefill_tps":  99.8,
+        "gen_tokens":  128,
+        "gen_tps":  5.4,
+        "status":  "ok"
+    }
+]

@@ -1,0 +1,5 @@
+﻿"model","family","params","quant","ctx","vram_gb","size_gb","target_tokens","prompt_tokens","prefill_tps","gen_tps","runs_ok","runs"
+"Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, load-mode none, GTX1070 8GB)","llama.cpp","","","32768",,,"1024","1092","11","4.5","3","3"
+"Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, load-mode none, GTX1070 8GB)","llama.cpp","","","32768",,,"4096","4246","16.1","4.4","3","3"
+"Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, load-mode none, GTX1070 8GB)","llama.cpp","","","32768",,,"16384","16867","21.5","3.8","3","3"
+"Qwen3.8-Flash-Next-Uncensored IQ4_XS (n-cpu-moe 47 + l46 down on GPU, load-mode none, GTX1070 8GB)","llama.cpp","","","32768",,,"24576","25279","27","3.9","3","3"
