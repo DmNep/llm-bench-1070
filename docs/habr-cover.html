@@ -1,0 +1,242 @@
+<title>GTX 1070 Qwen3.8 Cover</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+  /* palette: near-black graphite ground, warm GPU-heat accent, cool circuit teal, mono for specs */
+  /* type: Space Grotesk (display), JetBrains Mono (stat numbers / specs), Inter (labels) */
+  /* layout: fixed 1200x630 cover card centered on a quiet stage, big digit left, GPU silhouette right */
+  :root {
+    --bg: #ffffff;
+    --stage: #eef1f4;
+    --panel: #0b0f14;
+    --panel2: #121922;
+    --fg: #eef2f6;
+    --muted: #8a95a3;
+    --line: #223041;
+    --accent: #ff7a30;
+    --accent-dim: #7a3f1d;
+    --teal: #2dd4bf;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #090c10; --stage: #090c10; color-scheme: dark; }
+  }
+  :root[data-theme="dark"] { --bg: #090c10; --stage: #090c10; color-scheme: dark; }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    margin: 0;
+    padding-block: 24px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  .stage {
+    width: 100%;
+    max-width: 1200px;
+    background: var(--stage);
+    border-radius: 18px;
+    padding: clamp(12px, 3vw, 28px);
+  }
+
+  .cover {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1200 / 630;
+    border-radius: 14px;
+    overflow: hidden;
+    background:
+      radial-gradient(900px 500px at 82% 18%, rgba(255,122,48,0.16), transparent 60%),
+      radial-gradient(700px 420px at 15% 90%, rgba(45,212,191,0.10), transparent 60%),
+      linear-gradient(180deg, var(--panel) 0%, var(--panel2) 100%);
+    color: var(--fg);
+  }
+
+  .grid-overlay {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(to right, rgba(255,255,255,0.045) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255,255,255,0.045) 1px, transparent 1px);
+    background-size: 42px 42px;
+    mask-image: radial-gradient(900px 600px at 30% 40%, black, transparent 85%);
+  }
+
+  .content {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: clamp(22px, 4vw, 54px);
+  }
+
+  .eyebrow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: clamp(11px, 1.3vw, 14px);
+    letter-spacing: 0.04em;
+    color: var(--muted);
+  }
+  .eyebrow span { white-space: nowrap; }
+  .eyebrow .dot { color: var(--accent); }
+
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: clamp(16px, 3vw, 40px);
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.86;
+  }
+  .stat .num {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-weight: 700;
+    font-size: clamp(88px, 15vw, 190px);
+    color: var(--fg);
+    letter-spacing: -0.02em;
+    text-shadow: 0 0 60px rgba(255,122,48,0.35);
+  }
+  .stat .num .b {
+    color: var(--accent);
+  }
+  .stat .cap {
+    margin-top: clamp(6px, 1.4vw, 16px);
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-weight: 600;
+    font-size: clamp(16px, 2.4vw, 30px);
+    color: var(--fg);
+  }
+  .stat .sub {
+    margin-top: 4px;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: clamp(12px, 1.5vw, 17px);
+    color: var(--muted);
+  }
+
+  /* --- GPU silhouette, built from shapes --- */
+  .gpu-wrap {
+    flex: 0 0 auto;
+    width: clamp(220px, 32vw, 400px);
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .gpu-wrap svg { width: 100%; height: 100%; overflow: visible; }
+
+  .title {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: clamp(22px, 3.6vw, 44px);
+    line-height: 1.12;
+    max-width: 920px;
+    text-wrap: balance;
+  }
+  .title .hl { color: var(--accent); }
+
+  .tags {
+    margin-top: clamp(10px, 2vw, 18px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .tag {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: clamp(11px, 1.3vw, 14px);
+    color: var(--fg);
+    border: 1px solid var(--line);
+    background: rgba(255,255,255,0.03);
+    padding: 6px 12px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .tag.accent { border-color: var(--accent-dim); color: var(--accent); }
+  .tag.teal { border-color: #1d4a44; color: var(--teal); }
+</style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=JetBrains+Mono:wght@500;700&family=Inter:wght@400;500;600&display=swap">
+
+<div class="stage">
+  <div class="cover" id="cover">
+    <div class="grid-overlay"></div>
+    <div class="content">
+      <div class="eyebrow">
+        <span><span class="dot">●</span> GTX 1070 8&nbsp;ГБ</span>
+        <span><span class="dot">●</span> Xeon E5-2696 v4 · 22c/44t</span>
+        <span><span class="dot">●</span> 128&nbsp;ГБ DDR3-1600</span>
+      </div>
+
+      <div class="main">
+        <div class="stat">
+          <div class="num">125<span class="b">B</span></div>
+          <div class="cap">параметров</div>
+          <div class="sub">Qwen3.8&#8209;Flash&#8209;Next, анцензорная, ~6B активных</div>
+        </div>
+        <div class="gpu-wrap">
+          <svg viewBox="0 0 400 400" fill="none">
+            <!-- PCB base -->
+            <rect x="40" y="130" width="330" height="150" rx="14" fill="#0e1520" stroke="#2a3a4d" stroke-width="2"/>
+            <!-- bracket -->
+            <rect x="18" y="120" width="26" height="170" rx="6" fill="#1a2430" stroke="#2a3a4d" stroke-width="2"/>
+            <rect x="24" y="140" width="14" height="22" rx="3" fill="#0b0f14"/>
+            <rect x="24" y="172" width="14" height="22" rx="3" fill="#0b0f14"/>
+            <rect x="24" y="204" width="14" height="22" rx="3" fill="#0b0f14"/>
+            <!-- shroud -->
+            <rect x="55" y="112" width="300" height="186" rx="22" fill="#141c28" stroke="#2f4154" stroke-width="2"/>
+            <!-- fan 1 -->
+            <circle cx="140" cy="205" r="66" fill="#0b0f14" stroke="#30445a" stroke-width="2"/>
+            <circle cx="140" cy="205" r="66" fill="none" stroke="var(--accent)" stroke-width="3" stroke-dasharray="6 10" opacity="0.55"/>
+            <circle cx="140" cy="205" r="14" fill="#1b2634" stroke="#3a4f66" stroke-width="2"/>
+            <g stroke="#3a4f66" stroke-width="2" stroke-linecap="round">
+              <path d="M140 205 L140 150"/>
+              <path d="M140 205 L188 232"/>
+              <path d="M140 205 L92 232"/>
+              <path d="M140 205 L140 260"/>
+              <path d="M140 205 L92 178"/>
+              <path d="M140 205 L188 178"/>
+            </g>
+            <!-- fan 2 -->
+            <circle cx="275" cy="205" r="66" fill="#0b0f14" stroke="#30445a" stroke-width="2"/>
+            <circle cx="275" cy="205" r="66" fill="none" stroke="var(--teal)" stroke-width="3" stroke-dasharray="6 10" opacity="0.55"/>
+            <circle cx="275" cy="205" r="14" fill="#1b2634" stroke="#3a4f66" stroke-width="2"/>
+            <g stroke="#3a4f66" stroke-width="2" stroke-linecap="round">
+              <path d="M275 205 L275 150"/>
+              <path d="M275 205 L323 232"/>
+              <path d="M275 205 L227 232"/>
+              <path d="M275 205 L275 260"/>
+              <path d="M275 205 L227 178"/>
+              <path d="M275 205 L323 178"/>
+            </g>
+            <!-- GTX 1070 label plate -->
+            <rect x="80" y="118" width="130" height="24" rx="5" fill="#0b0f14" stroke="#30445a" stroke-width="1.5"/>
+            <text x="145" y="135" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" fill="#eef2f6">GTX 1070</text>
+            <!-- power connector -->
+            <rect x="330" y="96" width="34" height="18" rx="3" fill="#1a2430" stroke="#2f4154" stroke-width="1.5"/>
+            <!-- glow accent line -->
+            <rect x="55" y="282" width="300" height="4" rx="2" fill="var(--accent)" opacity="0.7"/>
+          </svg>
+        </div>
+      </div>
+
+      <div>
+        <div class="title">Рабочее место за <span class="hl">43 000 ₽</span> в 2026 году</div>
+        <div class="tags">
+          <span class="tag accent">анцензорный Qwen3.8-Flash-Next</span>
+          <span class="tag">llama.cpp</span>
+          <span class="tag teal">Strata</span>
+          <span class="tag">15 ток/с генерация</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
