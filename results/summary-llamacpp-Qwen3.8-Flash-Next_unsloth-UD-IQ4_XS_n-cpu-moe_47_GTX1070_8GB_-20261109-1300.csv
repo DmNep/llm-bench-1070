@@ -1,0 +1,5 @@
+﻿"model","family","params","quant","ctx","vram_gb","size_gb","target_tokens","prompt_tokens","prefill_tps","gen_tps","runs_ok","runs"
+"Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)","llama.cpp","125B-A6B","UD-IQ4_XS","32768","7.844",,"1024","1092","64","4.9","3","3"
+"Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)","llama.cpp","125B-A6B","UD-IQ4_XS","32768","7.844",,"4096","4246","79.1","4.6","3","3"
+"Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)","llama.cpp","125B-A6B","UD-IQ4_XS","32768","7.844",,"16384","16867","18.1","1.6","3","3"
+"Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)","llama.cpp","125B-A6B","UD-IQ4_XS","32768","7.844",,"24576","25279","13","1.45","2","2"

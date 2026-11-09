@@ -1,0 +1,118 @@
+[
+    {
+        "label":  "Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)",
+        "target_tokens":  1024,
+        "rep":  1,
+        "prompt_tokens":  1091,
+        "prefill_tps":  52.3,
+        "gen_tokens":  128,
+        "gen_tps":  4.9,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)",
+        "target_tokens":  1024,
+        "rep":  2,
+        "prompt_tokens":  1092,
+        "prefill_tps":  64,
+        "gen_tokens":  128,
+        "gen_tps":  5.2,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)",
+        "target_tokens":  1024,
+        "rep":  3,
+        "prompt_tokens":  1092,
+        "prefill_tps":  65.1,
+        "gen_tokens":  128,
+        "gen_tps":  4.6,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)",
+        "target_tokens":  4096,
+        "rep":  1,
+        "prompt_tokens":  4246,
+        "prefill_tps":  79.1,
+        "gen_tokens":  128,
+        "gen_tps":  4.6,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)",
+        "target_tokens":  4096,
+        "rep":  2,
+        "prompt_tokens":  4246,
+        "prefill_tps":  82.2,
+        "gen_tokens":  128,
+        "gen_tps":  5.5,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)",
+        "target_tokens":  4096,
+        "rep":  3,
+        "prompt_tokens":  4247,
+        "prefill_tps":  20.4,
+        "gen_tokens":  128,
+        "gen_tps":  4.0,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)",
+        "target_tokens":  16384,
+        "rep":  1,
+        "prompt_tokens":  16864,
+        "prefill_tps":  49.5,
+        "gen_tokens":  128,
+        "gen_tps":  4.2,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)",
+        "target_tokens":  16384,
+        "rep":  2,
+        "prompt_tokens":  16867,
+        "prefill_tps":  18.1,
+        "gen_tokens":  128,
+        "gen_tps":  1.6,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)",
+        "target_tokens":  16384,
+        "rep":  3,
+        "prompt_tokens":  16867,
+        "prefill_tps":  13.4,
+        "gen_tokens":  128,
+        "gen_tps":  1.6,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)",
+        "target_tokens":  24576,
+        "rep":  1,
+        "prompt_tokens":  25276,
+        "prefill_tps":  12.7,
+        "gen_tokens":  128,
+        "gen_tps":  1.4,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)",
+        "target_tokens":  24576,
+        "rep":  2,
+        "prompt_tokens":  25281,
+        "prefill_tps":  13.2,
+        "gen_tokens":  128,
+        "gen_tps":  1.5,
+        "status":  "ok"
+    },
+    {
+        "label":  "Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (llama.cpp, n-cpu-moe 47, GTX1070 8GB)",
+        "target_tokens":  24576,
+        "rep":  3,
+        "status":  "skipped: manually stopped after rep 2 to avoid another ~33min pass; see README for why"
+    }
+]
