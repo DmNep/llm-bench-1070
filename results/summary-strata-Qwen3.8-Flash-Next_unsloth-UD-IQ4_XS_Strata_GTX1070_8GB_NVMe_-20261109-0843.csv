@@ -1,0 +1,5 @@
+﻿"model","family","params","quant","ctx","vram_gb","size_gb","target_tokens","prompt_tokens","prefill_tps","gen_tps","draft_accept_pct","runs_ok","runs"
+"Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (Strata, GTX1070 8GB, NVMe)","Strata","125B","UD-IQ4_XS","32768","8",,"1024","1093","151.4","14","80","3","3"
+"Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (Strata, GTX1070 8GB, NVMe)","Strata","125B","UD-IQ4_XS","32768","8",,"4096","4216","214.2","14.1","62","3","3"
+"Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (Strata, GTX1070 8GB, NVMe)","Strata","125B","UD-IQ4_XS","32768","8",,"16384","16701","225.8","14.3","50","3","3"
+"Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (Strata, GTX1070 8GB, NVMe)","Strata","125B","UD-IQ4_XS","32768","8",,"24576","25024","228","13.9","50","3","3"
