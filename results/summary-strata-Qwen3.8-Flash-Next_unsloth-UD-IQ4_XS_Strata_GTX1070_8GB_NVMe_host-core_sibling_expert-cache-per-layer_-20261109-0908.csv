@@ -1,0 +1,5 @@
+﻿"model","family","params","quant","ctx","vram_gb","size_gb","target_tokens","prompt_tokens","prefill_tps","gen_tps","draft_accept_pct","runs_ok","runs"
+"Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (Strata, GTX1070 8GB, NVMe, host-core sibling + expert-cache-per-layer)","Strata","125B","UD-IQ4_XS","32768","8",,"1024","1093","237.6","15.3","67","3","3"
+"Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (Strata, GTX1070 8GB, NVMe, host-core sibling + expert-cache-per-layer)","Strata","125B","UD-IQ4_XS","32768","8",,"4096","4215","224.9","15.3","71","3","3"
+"Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (Strata, GTX1070 8GB, NVMe, host-core sibling + expert-cache-per-layer)","Strata","125B","UD-IQ4_XS","32768","8",,"16384","16702","236.5","15.2","67","3","3"
+"Qwen3.8-Flash-Next unsloth-UD-IQ4_XS (Strata, GTX1070 8GB, NVMe, host-core sibling + expert-cache-per-layer)","Strata","125B","UD-IQ4_XS","32768","8",,"24576","25024","237.6","15.1","62","3","3"
